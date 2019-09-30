@@ -18,7 +18,9 @@ self.end_with?("?")
   end
 
   def count_sentences
-    complex_string = "one. two. three. four.".split(".").count
+    binding.pry
+    "one. two. three. four!"
+    self.split(".").count
   end
   end
 end
